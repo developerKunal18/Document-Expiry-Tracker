@@ -1,0 +1,21 @@
+Features
+- Add and update document records.
+- Track document issue and expiry dates.
+- Show expired documents.
+- Identify documents expiring within the next 30 days.
+- Search by document name or owner.
+- Generate expiry reports.
+- Save records in JSON files.
+This project is different from the recent management systems and uses Python's built-in datetime and json modules. 
+
+Folder structure
+Document-Expiry-Tracker/
+├── main.py
+├── document_manager.py
+├── storage.py
+├── utils.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+└── data/
+    └── documents.json
